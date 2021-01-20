@@ -10,8 +10,6 @@ public class test {
 
 	public static String IsValiteAddress(String string)
 	{
-		//boolean b = false;
-		
 		if(string.contains(".")) {
 			String[] strings = string.split("\\.");
 			if(strings.length == 4&& !string.startsWith(".") && !string.endsWith(".")) {
